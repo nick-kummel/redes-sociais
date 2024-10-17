@@ -1,0 +1,135 @@
+@font-face {
+    font-family:Título;
+    src: url(/fonte/MADECarvingSoftPERSONALUSE-Bold.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 45px;
+
+font-family:Título;
+}
+
+p {
+    margin: 0 auto;
+    width: 90%;
+}
+
+body {
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    background-color: #ead2be;
+
+}
+
+form {
+text-align: center;
+background-color: rgb(229, 202, 160);
+padding:25px;
+border-radius: 10px;
+max-width: 400px;
+margin: 8%;
+margin-left: 5%;
+box-shadow: 0 0 10px;
+width: 400px;
+height: 400px;
+}
+input{
+    font-size: 12px;
+    background-color: rgb(208, 216, 216);
+    font-family: 'Times New Roman', Times, serif;
+}
+textarea{
+    background-color: rgb(223, 210, 210);
+    border: 3px solid rgb(204, 181, 139);
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    padding: 10px;
+    border-radius:10px ;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fafaface;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 15px 20px;
+}
+
+nav ul li a {
+    color: #CD853F;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px;
+    /* transition: black 0.5s; */
+}
+
+nav ul li a:hover {
+    color: #000000;
+   
+}
+
+section:not(#home) {
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+}
+
+#home {
+    background-color: rgb(173, 48, 48);
+background-image: url(https://jornal.usp.br/wp-content/uploads/2020/09/20200901_00_exposicao_infantil.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+color: #ffffff;
+height: 100vh;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#services {
+    background-color: #b58a70;
+  
+    
+
+}
+
+#about {
+    background-color: #f0f8ff;
+}
+
+#contact {
+    background-color: #b58a70;
+}
+ 
+#conclusao {
+    background-color: #ffecd0;
+}
+
+footer{
+    text-align: center;
+    background-color: #f0b27f;
+    padding: 10px;
+    margin-top: 5%;
+}
